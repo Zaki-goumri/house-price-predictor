@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Mac & system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model artifacts
+models/
+*.joblib
+*.pkl
+
+# Dataset files (keep this if you don’t want big CSVs in git)
+dataset/*.csv
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Uvicorn reload artifacts
+*.pid
+
+# Environment files
+.env
