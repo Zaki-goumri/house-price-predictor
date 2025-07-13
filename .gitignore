@@ -23,10 +23,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Model artifacts
-models/
-*.joblib
-*.pkl
 
 # Dataset files (keep this if you don’t want big CSVs in git)
 dataset/*.csv
